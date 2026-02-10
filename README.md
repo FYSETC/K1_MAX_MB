@@ -34,6 +34,7 @@ The CATALYST motherboard is based on the STM32H723, and the nozzle is based on t
 ![catalyst-can](image/catalyst_can.png)
 
 ### NOZZLE
+When using nozzles with different communication methods, a switch needs to be switched. Refer to the image switch_nozzle*.png for instructions.
 #### USB
 - [*] Enable extra low-level configuration options 
 - Micro-controller Architecture (STMicroelectronics STM32)
@@ -65,7 +66,7 @@ The CATALYST motherboard is based on the STM32H723, and the nozzle is based on t
 - Bootloader offset (No bootloader)
 - Clock Reference (12 Mhz crystal)
 - Communication interface (Serial (on USART1 PA10/PA9))
-- (9600) Baud rate for serial port
+- (230400) Baud rate for serial port
 - () GPIO pins to set at micro-controller startup
 
 ![zozzle-serial](image/nozzle_serial.png)
